@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalkulator Zakat Pendapatan</title>
+  <link rel="stylesheet" href="GUI_1.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <p class="eyebrow">Kalkulator Zakat Moden</p>
+        <h1>Kalkulator Zakat Pendapatan</h1>
+        <p class="subtitle">
+          Pilih negeri, tahun/haul, dan kaedah kiraan. Paparan di sebelah kanan dikemas kini secara langsung.
+        </p>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="form-panel">
+        <div class="panel-card">
+          <h2>Tetapan Kiraan</h2>
+
+          <div class="grid-2">
+            <div class="form-group">
+              <label for="state">Negeri</label>
+              <select id="state"></select>
+            </div>
+
+            <div class="form-group">
+              <label for="year">Tahun / Haul</label>
+              <select id="year"></select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Kaedah Tolakan</label>
+            <div class="choice-group">
+              <label class="choice-pill">
+                <input type="radio" name="deductionMode" value="with" checked />
+                <span>Dengan Tolakan</span>
+              </label>
+
+              <label class="choice-pill">
+                <input type="radio" name="deductionMode" value="without" />
+                <span>Tanpa Tolakan</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-card">
+          <h2>A. Pendapatan Kasar Setahun</h2>
+
+          <div class="grid-2">
+            <div class="form-group">
+              <label for="gaji">Gaji x 12 Bulan (RM)</label>
+              <input type="number" id="gaji" min="0" step="0.01" value="0" />
+            </div>
+
+            <div class="form-group">
+              <label for="elaun">Elaun x 12 Bulan (RM)</label>
+              <input type="number" id="elaun" min="0" step="0.01" value="0" />
+            </div>
+
+            <div class="form-group">
+              <label for="bonus">Bonus (RM)</label>
+              <input type="number" id="bonus" min="0" step="0.01" value="0" />
+            </div>
+
+            <div class="form-group">
+              <label for="lain">Pendapatan Lain (RM)</label>
+              <input type="number" id="lain" min="0" step="0.01" value="0" />
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-card" id="deductionCard">
+          <div class="section-header">
+            <div>
+              <h2>B. Perbelanjaan Yang Dibenarkan</h2>
+              <p class="section-subtitle">
+                Nilai kategori di bawah diambil mengikut negeri yang dipilih.
+              </p>
+            </div>
+          </div>
+
+          <div class="detail-box">
+            <div class="detail-header">
+              <div>
+                <h3>Sara Diri</h3>
+                <p class="detail-subtitle">Jumlah ini ditetapkan automatik mengikut negeri.</p>
+              </div>
+            </div>
+
+            <div class="summary-row compact">
+              <span>Kadar Sara Diri Negeri</span>
+              <strong id="saraDiriValue">RM 0.00</strong>
+            </div>
+          </div>
+
+          <div class="detail-box" id="wifeBox">
+            <div class="detail-header">
+              <div>
+                <h3>Maklumat Isteri</h3>
+                <p class="detail-subtitle">
+                  Pecahan mesti sama tepat dengan bilangan isteri untuk negeri yang menyokong kategori ini.
+                </p>
+              </div>
+            </div>
+
+            <div class="grid-2">
+              <div class="form-group">
+                <label for="bilIsteri">Bilangan Isteri</label>
+                <input type="number" id="bilIsteri" min="0" step="1" value="0" />
+              </div>
+
+              <div class="form-group">
+                <label for="isteriBekerja">Bilangan Isteri Bekerja</label>
+                <input type="number" id="isteriBekerja" min="0" step="1" value="0" />
+              </div>
+
+              <div class="form-group">
+                <label for="isteriTidakBekerja">Bilangan Isteri Tidak Bekerja</label>
+                <input type="number" id="isteriTidakBekerja" min="0" step="1" value="0" />
+              </div>
+            </div>
+
+            <div class="rate-list">
+              <div class="summary-row compact">
+                <span>Kadar Isteri Bekerja</span>
+                <strong id="isteriBekerjaRate">-</strong>
+              </div>
+              <div class="summary-row compact">
+                <span>Kadar Isteri Tidak Bekerja</span>
+                <strong id="isteriTidakBekerjaRate">-</strong>
+              </div>
+            </div>
+
+            <p class="helper-text" id="wifeHelper"></p>
+          </div>
+
+          <div class="detail-box" id="dependentBox">
+            <div class="detail-header">
+              <div>
+                <h3>Anak / Tanggungan</h3>
+                <p class="detail-subtitle">
+                  Pecahan mesti sama tepat dengan bilangan anak / tanggungan untuk kategori yang disokong negeri itu.
+                </p>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="bilAnak">Bilangan Anak / Tanggungan</label>
+              <input type="number" id="bilAnak" min="0" step="1" value="0" />
+            </div>
+
+            <div class="grid-2">
+              <div class="form-group">
+                <label for="anakGeneric">Anak</label>
+                <input type="number" id="anakGeneric" min="0" step="1" value="0" />
+              </div>
+
+              <div class="form-group">
+                <label for="umur6KeBawah">Anak/Tanggungan &lt; 6 tahun</label>
+                <input type="number" id="umur6KeBawah" min="0" step="1" value="0" />
+              </div>
+
+              <div class="form-group">
+                <label for="umur7to17">Anak/Tanggungan 7–17 tahun</label>
+                <input type="number" id="umur7to17" min="0" step="1" value="0" />
+              </div>
+
+              <div class="form-group">
+                <label for="belajarIPT">Anak/Tanggungan IPT</label>
+                <input type="number" id="belajarIPT" min="0" step="1" value="0" />
+              </div>
+
+              <div class="form-group">
+                <label for="dewasaBekerja">Dewasa Bekerja</label>
+                <input type="number" id="dewasaBekerja" min="0" step="1" value="0" />
+              </div>
+
+              <div class="form-group">
+                <label for="dewasaTidakBekerja">Dewasa Tidak Bekerja</label>
+                <input type="number" id="dewasaTidakBekerja" min="0" step="1" value="0" />
+              </div>
+
+              <div class="form-group">
+                <label for="anakOKU">Tanggungan OKU</label>
+                <input type="number" id="anakOKU" min="0" step="1" value="0" />
+              </div>
+
+              <div class="form-group">
+                <label for="pesakitKronik">Tanggungan Pesakit Kronik</label>
+                <input type="number" id="pesakitKronik" min="0" step="1" value="0" />
+              </div>
+            </div>
+
+            <p class="helper-text" id="dependentHelper"></p>
+          </div>
+
+          <div class="detail-box">
+            <div class="detail-header">
+              <div>
+                <h3>Kategori Tambahan</h3>
+                <p class="detail-subtitle">
+                  Tandakan hanya kategori yang disokong oleh negeri.
+                </p>
+              </div>
+            </div>
+
+            <div class="checkbox-grid">
+              <label class="check-item">
+                <input type="checkbox" id="claimIbuBapa" />
+                <span>Ibu Bapa</span>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" id="claimRawatan" />
+                <span>Rawatan</span>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" id="claimPendidikan" />
+                <span>Pendidikan</span>
+              </label>
+
+              <label class="check-item">
+                <input type="checkbox" id="claimBaitulmal" />
+                <span>Sumbangan Baitulmal</span>
+              </label>
+            </div>
+
+            <div class="rate-list">
+              <div class="summary-row compact">
+                <span>Kadar Ibu Bapa</span>
+                <strong id="ibuBapaRate">-</strong>
+              </div>
+              <div class="summary-row compact">
+                <span>Kadar Rawatan</span>
+                <strong id="rawatanRate">-</strong>
+              </div>
+              <div class="summary-row compact">
+                <span>Kadar Pendidikan</span>
+                <strong id="pendidikanRate">-</strong>
+              </div>
+              <div class="summary-row compact">
+                <span>Kadar Sumbangan Baitulmal</span>
+                <strong id="baitulmalRate">-</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="mini-breakdown">
+            <div class="mini-item">
+              <span>Jumlah Tolakan Isteri</span>
+              <strong id="jumlahIsteri">RM 0.00</strong>
+            </div>
+
+            <div class="mini-item">
+              <span>Jumlah Anak / Tanggungan</span>
+              <strong id="jumlahAnak">RM 0.00</strong>
+            </div>
+
+            <div class="mini-item">
+              <span>Jumlah Kategori Tambahan</span>
+              <strong id="jumlahTambahan">RM 0.00</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-card">
+          <div class="button-row">
+            <button type="button" class="btn btn-secondary" id="resetBtn">Reset</button>
+            <button type="button" class="btn btn-primary" id="printBtn">Print</button>
+          </div>
+        </div>
+      </section>
+
+      <aside class="summary-panel">
+        <div class="summary-card">
+          <div class="summary-top">
+            <p class="summary-label">Ringkasan Langsung</p>
+            <h2 id="summaryState">Negeri</h2>
+            <p id="summaryYear">Tahun / Haul</p>
+          </div>
+
+          <div class="status-chip-wrap">
+            <span class="status-chip" id="deductionStatusChip">Dengan Tolakan</span>
+            <span class="status-chip soft" id="nisabStatusChip">Belum Semak Nisab</span>
+          </div>
+
+          <div class="summary-alert hidden" id="validationAlert"></div>
+
+          <div class="summary-section">
+            <h3>Maklumat Negeri & Tahun</h3>
+            <div class="summary-list">
+              <div class="summary-row">
+                <span>Nisab / Haul</span>
+                <strong id="nisabValue">RM 0.00</strong>
+              </div>
+              <div class="summary-row">
+                <span>Formula Digunakan</span>
+                <strong id="formulaName">-</strong>
+              </div>
+            </div>
+
+            <div class="formula-box">
+              <p class="formula-title">Formula Placeholder</p>
+              <p id="formulaText">-</p>
+            </div>
+          </div>
+
+          <div class="summary-section">
+            <h3>Pecahan Kiraan</h3>
+            <div class="summary-list">
+              <div class="summary-row">
+                <span>A. Jumlah Pendapatan</span>
+                <strong id="jumlahPendapatan">RM 0.00</strong>
+              </div>
+              <div class="summary-row">
+                <span>B. Jumlah Tolakan</span>
+                <strong id="jumlahPerbelanjaan">RM 0.00</strong>
+              </div>
+              <div class="summary-row">
+                <span>C. Pendapatan Layak Zakat</span>
+                <strong id="pendapatanLayak">RM 0.00</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="summary-section">
+            <h3>Keputusan</h3>
+            <div class="big-total">
+              <span>Zakat Setahun</span>
+              <strong id="zakatSetahun">RM 0.00</strong>
+            </div>
+
+            <div class="big-total secondary">
+              <span>Zakat Sebulan</span>
+              <strong id="zakatSebulan">RM 0.00</strong>
+            </div>
+
+            <div class="big-total highlight">
+              <span>Status</span>
+              <strong id="statusWajib">Tidak Wajib</strong>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+
+  <script src="GUI_1.js"></script>
+</body>
+</html>
