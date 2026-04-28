@@ -1,0 +1,241 @@
+{
+  "zakat_pendapatan_tanpa_tolakan": {
+    "Bahagian A: Komponen Pendapatan": [
+      {
+        "label": "Hasil Penggajian & Upah Tahunan",
+        "input_id": "input-a1",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Hasil Bebas & Profesional Tahunan",
+        "input_id": "input-a2",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Hasil al-Mustaghallat",
+        "input_id": "input-a3",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Hasil Pemberian atau Sumbangan",
+        "input_id": "input-a4",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Jumlah A:",
+        "input_id": "jumlah-a",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": "0.00"
+      }
+    ]
+  },
+  "zakat_pendapatan_dengan_tolakan": {
+    "Bahagian A: Komponen Pendapatan": [
+      {
+        "label": "Hasil Penggajian & Upah Tahunan",
+        "input_id": "input-a1",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Hasil Bebas & Profesional Tahunan",
+        "input_id": "input-a2",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Hasil al-Mustaghallat",
+        "input_id": "input-a3",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Hasil Pemberian atau Sumbangan",
+        "input_id": "input-a4",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Jumlah A:",
+        "input_id": "jumlah-a",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      }
+    ],
+    "Bahagian B: Had Kifayah Isi Rumah & Tambahan": [
+      {
+        "label": "Ketua Keluarga",
+        "input_id": "ketua-keluarga",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": "14,580"
+      },
+      {
+        "label": "Dewasa Bekerja (18 tahun ke atas) - RM4,944 / Seorang",
+        "input_id": "dewasa-bekerja",
+        "input_name": "",
+        "input_type": "select-one",
+        "input_value": "0"
+      },
+      {
+        "label": "Dewasa Tidak Bekerja (18 tahun ke atas) - RM2,004 / Seorang",
+        "input_id": "dewasa-tidak-bekerja",
+        "input_name": "",
+        "input_type": "select-one",
+        "input_value": "0"
+      },
+      {
+        "label": "Tanggungan Belajar IPT - RM7,356 / Seorang",
+        "input_id": "tanggungan-belajar",
+        "input_name": "",
+        "input_type": "select-one",
+        "input_value": "0"
+      },
+      {
+        "label": "Tanggungan Berumur 7-17 Tahun - RM4,896 / Seorang",
+        "input_id": "tanggungan-berumur",
+        "input_name": "",
+        "input_type": "select-one",
+        "input_value": "0"
+      },
+      {
+        "label": "Tanggungan 6 Tahun Ke Bawah - RM2,100 / Seorang",
+        "input_id": "tanggungan-6-tahun",
+        "input_name": "",
+        "input_type": "select-one",
+        "input_value": "0"
+      },
+      {
+        "label": "Tanggungan Anak OKU - RM2,964 / Seorang",
+        "input_id": "tanggungan-oku",
+        "input_name": "",
+        "input_type": "select-one",
+        "input_value": "0"
+      },
+      {
+        "label": "Tanggungan Pesakit Kronik - RM2,916 / Seorang",
+        "input_id": "tanggungan-kronik",
+        "input_name": "",
+        "input_type": "select-one",
+        "input_value": "0"
+      },
+      {
+        "label": "Kos Penjagaan Anak - RM3,960 / Seorang",
+        "input_id": "kos-penjagaan-anak",
+        "input_name": "",
+        "input_type": "select-one",
+        "input_value": "0"
+      },
+      {
+        "label": "Jumlah B:",
+        "input_id": "jumlah-b",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": "14,580.00"
+      }
+    ],
+    "Bahagian C: Tolakan Lain": [
+      {
+        "label": "Caruman KWSP Bahagian Pekerja Di Bawah Umur 55 Tahun (Jumlah Gaji Kasar x 11%)",
+        "input_id": "caruman-kwsp",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      }
+    ],
+    "Section D:": [
+      {
+        "label": "Jumlah Bahagian A - (B + C)",
+        "input_id": "input-d1",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      }
+    ],
+    "Bahagian E:": [
+      {
+        "label": "Tolak Simpanan Tahunan Semasa Tabung Haji (Jika Ada)",
+        "input_id": "input-e1",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      }
+    ]
+  },
+  "zakat_perniagaan": {
+    "Bahagian A: Aset Semasa / Harta Semasa": [
+      {
+        "label": "Jumlah Tunai di Tangan dan di Bank",
+        "input_id": "input-a1",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Penghutang / Hutang Belum Terima Dari Pelanggan",
+        "input_id": "input-a2",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Stok Barang Jualan",
+        "input_id": "input-a3",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Jumlah A:",
+        "input_id": "jumlah-a",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": "0.00"
+      }
+    ],
+    "Bahagian B: Liabiliti / Tanggungan Semasa": [
+      {
+        "label": "Pemiutang / Hutang belum bayar kepada pembekal",
+        "input_id": "input-b1",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Tunggakan operasi / akrual (sewa kedai, gaji pekerja, utiliti dan sebagainya yang belum dibayar)",
+        "input_id": "input-b2",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Cukai perniagaan semasa belum dibayar",
+        "input_id": "input-b3",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": ""
+      },
+      {
+        "label": "Jumlah B:",
+        "input_id": "jumlah-b",
+        "input_name": "",
+        "input_type": "text",
+        "input_value": "0.00"
+      }
+    ]
+  }
+}

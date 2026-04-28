@@ -1,0 +1,1205 @@
+{
+  "had_kifayah_rates": [
+    {
+      "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+      "label": "B1a: Diri Sendiri - Ketua Keluarga",
+      "container_text": "B1a: Diri Sendiri - Ketua Keluarga RM 14,400.00 x 1 orang",
+      "rate_per_unit": 14400,
+      "label_rm": [],
+      "container_rm": [
+        14400
+      ],
+      "multiplier": 1,
+      "input_value": 14400,
+      "input_raw": "14,400.00",
+      "input_type": "text",
+      "input_id": "",
+      "input_name": "B1a",
+      "options": []
+    },
+    {
+      "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+      "label": "B1b : Diri Sendiri - Isteri Bekerja",
+      "container_text": "B1b : Diri Sendiri - Isteri Bekerja RM 6,000.00 x 0 orang",
+      "rate_per_unit": 6000,
+      "label_rm": [],
+      "container_rm": [
+        6000
+      ],
+      "multiplier": 0,
+      "input_value": null,
+      "input_raw": "0.00",
+      "input_type": "text",
+      "input_id": "",
+      "input_name": "B1b",
+      "options": []
+    },
+    {
+      "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+      "label": "B2 : Pasangan Bekerja",
+      "container_text": "B2 : Pasangan Bekerja RM 3,000.00 x Tiada 1 orang 2 orang 3 orang 4 orang",
+      "rate_per_unit": 3000,
+      "label_rm": [],
+      "container_rm": [
+        3000
+      ],
+      "multiplier": null,
+      "input_value": null,
+      "input_raw": "0",
+      "input_type": "select",
+      "input_id": "",
+      "input_name": "B2a",
+      "options": [
+        {
+          "value": "0",
+          "text": "Tiada"
+        },
+        {
+          "value": "1",
+          "text": "1 orang"
+        },
+        {
+          "value": "2",
+          "text": "2 orang"
+        },
+        {
+          "value": "3",
+          "text": "3 orang"
+        },
+        {
+          "value": "4",
+          "text": "4 orang"
+        }
+      ]
+    },
+    {
+      "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+      "label": "B3: Pasangan Tidak Bekerja",
+      "container_text": "B3: Pasangan Tidak Bekerja RM 3,000.00 x Tiada 1 orang 2 orang 3 orang 4 orang",
+      "rate_per_unit": 3000,
+      "label_rm": [],
+      "container_rm": [
+        3000
+      ],
+      "multiplier": null,
+      "input_value": null,
+      "input_raw": "0",
+      "input_type": "select",
+      "input_id": "",
+      "input_name": "B3a",
+      "options": [
+        {
+          "value": "0",
+          "text": "Tiada"
+        },
+        {
+          "value": "1",
+          "text": "1 orang"
+        },
+        {
+          "value": "2",
+          "text": "2 orang"
+        },
+        {
+          "value": "3",
+          "text": "3 orang"
+        },
+        {
+          "value": "4",
+          "text": "4 orang"
+        }
+      ]
+    },
+    {
+      "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+      "label": "B4 : Anak 0-6 Tahun",
+      "container_text": "B4 : Anak 0-6 Tahun RM 3,600.00 x Tiada 1 orang 2 orang 3 orang 4 orang 5 orang 6 orang 7 orang 8 orang 9 orang 10 orang 11 orang 12 orang 13 orang 14 orang 15 orang",
+      "rate_per_unit": 3600,
+      "label_rm": [],
+      "container_rm": [
+        3600
+      ],
+      "multiplier": null,
+      "input_value": null,
+      "input_raw": "0",
+      "input_type": "select",
+      "input_id": "",
+      "input_name": "B4a",
+      "options": [
+        {
+          "value": "0",
+          "text": "Tiada"
+        },
+        {
+          "value": "1",
+          "text": "1 orang"
+        },
+        {
+          "value": "2",
+          "text": "2 orang"
+        },
+        {
+          "value": "3",
+          "text": "3 orang"
+        },
+        {
+          "value": "4",
+          "text": "4 orang"
+        },
+        {
+          "value": "5",
+          "text": "5 orang"
+        },
+        {
+          "value": "6",
+          "text": "6 orang"
+        },
+        {
+          "value": "7",
+          "text": "7 orang"
+        },
+        {
+          "value": "8",
+          "text": "8 orang"
+        },
+        {
+          "value": "9",
+          "text": "9 orang"
+        },
+        {
+          "value": "10",
+          "text": "10 orang"
+        },
+        {
+          "value": "11",
+          "text": "11 orang"
+        },
+        {
+          "value": "12",
+          "text": "12 orang"
+        },
+        {
+          "value": "13",
+          "text": "13 orang"
+        },
+        {
+          "value": "14",
+          "text": "14 orang"
+        },
+        {
+          "value": "15",
+          "text": "15 orang"
+        }
+      ]
+    },
+    {
+      "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+      "label": "B5 : Anak 7 Tahun Ke Atas",
+      "container_text": "B5 : Anak 7 Tahun Ke Atas RM 2,400.00 x Tiada 1 orang 2 orang 3 orang 4 orang 5 orang 6 orang 7 orang 8 orang 9 orang 10 orang 11 orang 12 orang 13 orang 14 orang 15 orang",
+      "rate_per_unit": 2400,
+      "label_rm": [],
+      "container_rm": [
+        2400
+      ],
+      "multiplier": null,
+      "input_value": null,
+      "input_raw": "0",
+      "input_type": "select",
+      "input_id": "",
+      "input_name": "B5a",
+      "options": [
+        {
+          "value": "0",
+          "text": "Tiada"
+        },
+        {
+          "value": "1",
+          "text": "1 orang"
+        },
+        {
+          "value": "2",
+          "text": "2 orang"
+        },
+        {
+          "value": "3",
+          "text": "3 orang"
+        },
+        {
+          "value": "4",
+          "text": "4 orang"
+        },
+        {
+          "value": "5",
+          "text": "5 orang"
+        },
+        {
+          "value": "6",
+          "text": "6 orang"
+        },
+        {
+          "value": "7",
+          "text": "7 orang"
+        },
+        {
+          "value": "8",
+          "text": "8 orang"
+        },
+        {
+          "value": "9",
+          "text": "9 orang"
+        },
+        {
+          "value": "10",
+          "text": "10 orang"
+        },
+        {
+          "value": "11",
+          "text": "11 orang"
+        },
+        {
+          "value": "12",
+          "text": "12 orang"
+        },
+        {
+          "value": "13",
+          "text": "13 orang"
+        },
+        {
+          "value": "14",
+          "text": "14 orang"
+        },
+        {
+          "value": "15",
+          "text": "15 orang"
+        }
+      ]
+    },
+    {
+      "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+      "label": "B6 : Anak 18 Tahun Ke Atas (Pendidikan Lanjutan)",
+      "container_text": "B6 : Anak 18 Tahun Ke Atas (Pendidikan Lanjutan) RM 4,200.00 x Tiada 1 orang 2 orang 3 orang 4 orang 5 orang 6 orang 7 orang 8 orang 9 orang 10 orang 11 orang 12 orang 13 orang 14 orang 15 orang",
+      "rate_per_unit": 4200,
+      "label_rm": [],
+      "container_rm": [
+        4200
+      ],
+      "multiplier": null,
+      "input_value": null,
+      "input_raw": "0",
+      "input_type": "select",
+      "input_id": "",
+      "input_name": "B6a",
+      "options": [
+        {
+          "value": "0",
+          "text": "Tiada"
+        },
+        {
+          "value": "1",
+          "text": "1 orang"
+        },
+        {
+          "value": "2",
+          "text": "2 orang"
+        },
+        {
+          "value": "3",
+          "text": "3 orang"
+        },
+        {
+          "value": "4",
+          "text": "4 orang"
+        },
+        {
+          "value": "5",
+          "text": "5 orang"
+        },
+        {
+          "value": "6",
+          "text": "6 orang"
+        },
+        {
+          "value": "7",
+          "text": "7 orang"
+        },
+        {
+          "value": "8",
+          "text": "8 orang"
+        },
+        {
+          "value": "9",
+          "text": "9 orang"
+        },
+        {
+          "value": "10",
+          "text": "10 orang"
+        },
+        {
+          "value": "11",
+          "text": "11 orang"
+        },
+        {
+          "value": "12",
+          "text": "12 orang"
+        },
+        {
+          "value": "13",
+          "text": "13 orang"
+        },
+        {
+          "value": "14",
+          "text": "14 orang"
+        },
+        {
+          "value": "15",
+          "text": "15 orang"
+        }
+      ]
+    },
+    {
+      "section": "Bahagian C: HAD KIFAYAH BERSYARAT AMAUN (RM)",
+      "label": "C2 : Penjagaan Kesihatan Sakit Kronik (Selain Isi Rumah)",
+      "container_text": "C2 : Penjagaan Kesihatan Sakit Kronik (Selain Isi Rumah) (Jumlah Amaun C1 + C2 terhad kepada RM2,400.00 sahaja)",
+      "rate_per_unit": 2400,
+      "label_rm": [],
+      "container_rm": [
+        2400
+      ],
+      "multiplier": null,
+      "input_value": null,
+      "input_raw": "",
+      "input_type": "text",
+      "input_id": "",
+      "input_name": "C2",
+      "options": []
+    },
+    {
+      "section": "Bahagian C: HAD KIFAYAH BERSYARAT AMAUN (RM)",
+      "label": "C3: Pemberian Wajib Kepada Ibu Bapa (Terhad RM4,200 setahun)",
+      "container_text": "C3: Pemberian Wajib Kepada Ibu Bapa (Terhad RM4,200 setahun)",
+      "rate_per_unit": 4200,
+      "label_rm": [
+        4200
+      ],
+      "container_rm": [
+        4200
+      ],
+      "multiplier": null,
+      "input_value": null,
+      "input_raw": "",
+      "input_type": "text",
+      "input_id": "",
+      "input_name": "C3",
+      "options": []
+    }
+  ],
+  "prefilled_constants": [
+    {
+      "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+      "label": "B1a: Diri Sendiri - Ketua Keluarga",
+      "container_text": "B1a: Diri Sendiri - Ketua Keluarga RM 14,400.00 x 1 orang",
+      "rate_per_unit": 14400,
+      "label_rm": [],
+      "container_rm": [
+        14400
+      ],
+      "multiplier": 1,
+      "input_value": 14400,
+      "input_raw": "14,400.00",
+      "input_type": "text",
+      "input_id": "",
+      "input_name": "B1a",
+      "options": []
+    },
+    {
+      "section": "Bahagian E : TAKSIRAN AMAUN (RM)",
+      "label": "E4 : Nisab Zakat Tahun 2026 (WAJIB ZAKAT jika baki sama @ melebihi nisab)",
+      "container_text": "E4 : Nisab Zakat Tahun 2026 (WAJIB ZAKAT jika baki sama @ melebihi nisab)",
+      "rate_per_unit": null,
+      "label_rm": [],
+      "container_rm": [],
+      "multiplier": null,
+      "input_value": 40092.42,
+      "input_raw": "40092.42",
+      "input_type": "text",
+      "input_id": "E4Input",
+      "input_name": "E4",
+      "options": []
+    }
+  ],
+  "sections": {
+    "(Lain-lain)": [
+      {
+        "section": "(Lain-lain)",
+        "label": "Jantina:",
+        "container_text": "Jantina: Sila Pilih Lelaki Perempuan",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0",
+        "input_type": "select",
+        "input_id": "",
+        "input_name": "SJantina",
+        "options": [
+          {
+            "value": "0",
+            "text": "Sila Pilih"
+          },
+          {
+            "value": "1",
+            "text": "Lelaki"
+          },
+          {
+            "value": "2",
+            "text": "Perempuan"
+          }
+        ]
+      },
+      {
+        "section": "(Lain-lain)",
+        "label": "Status Perkahwinan:",
+        "container_text": "Status Perkahwinan: Sila Pilih Bujang Berkahwin Duda/Janda/Balu",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0",
+        "input_type": "select",
+        "input_id": "",
+        "input_name": "SStatusKahwin",
+        "options": [
+          {
+            "value": "0",
+            "text": "Sila Pilih"
+          },
+          {
+            "value": "1",
+            "text": "Bujang"
+          },
+          {
+            "value": "2",
+            "text": "Berkahwin"
+          },
+          {
+            "value": "3",
+            "text": "Duda/Janda/Balu"
+          }
+        ]
+      },
+      {
+        "section": "(Lain-lain)",
+        "label": "Status Pendapatan Suami:",
+        "container_text": "Status Pendapatan Suami: Sila Pilih Memiliki Punca Pendapatan Tidak Memiliki Punca Pendapatan",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0",
+        "input_type": "select",
+        "input_id": "",
+        "input_name": "SStatusSuami",
+        "options": [
+          {
+            "value": "0",
+            "text": "Sila Pilih"
+          },
+          {
+            "value": "1",
+            "text": "Memiliki Punca Pendapatan"
+          },
+          {
+            "value": "2",
+            "text": "Tidak Memiliki Punca Pendapatan"
+          }
+        ]
+      }
+    ],
+    "BAHAGIAN A PENDAPATAN TAHUNAN (RM)": [
+      {
+        "section": "BAHAGIAN A PENDAPATAN TAHUNAN (RM)",
+        "label": "A1: Pendapatan Penggajian Setahun / Upah Setahun",
+        "container_text": "A1: Pendapatan Penggajian Setahun / Upah Setahun",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "A1",
+        "options": []
+      },
+      {
+        "section": "BAHAGIAN A PENDAPATAN TAHUNAN (RM)",
+        "label": "A2 : Pendapatan Hasil Bebas atau Profesional Setahun",
+        "container_text": "A2 : Pendapatan Hasil Bebas atau Profesional Setahun",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "A2",
+        "options": []
+      },
+      {
+        "section": "BAHAGIAN A PENDAPATAN TAHUNAN (RM)",
+        "label": "A3 : Pendapatan Hasil Aset Tetap Setahun",
+        "container_text": "A3 : Pendapatan Hasil Aset Tetap Setahun",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "A3",
+        "options": []
+      },
+      {
+        "section": "BAHAGIAN A PENDAPATAN TAHUNAN (RM)",
+        "label": "A4 : Jumlah Pendapatan (A1 + A2 + A3)",
+        "container_text": "A4 : Jumlah Pendapatan (A1 + A2 + A3)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0.00",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "A4",
+        "options": []
+      },
+      {
+        "section": "BAHAGIAN A PENDAPATAN TAHUNAN (RM)",
+        "label": "Adakah Anda Ingin Membuat Tolakan?",
+        "container_text": "Adakah Anda Ingin Membuat Tolakan? Ya, Buat Tolakan Tidak, Buat Taksiran Tanpa Tolakan",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0",
+        "input_type": "select",
+        "input_id": "",
+        "input_name": "UT1",
+        "options": [
+          {
+            "value": "0",
+            "text": "Ya, Buat Tolakan"
+          },
+          {
+            "value": "1",
+            "text": "Tidak, Buat Taksiran Tanpa Tolakan"
+          }
+        ]
+      }
+    ],
+    "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)": [
+      {
+        "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+        "label": "B1a: Diri Sendiri - Ketua Keluarga",
+        "container_text": "B1a: Diri Sendiri - Ketua Keluarga RM 14,400.00 x 1 orang",
+        "rate_per_unit": 14400,
+        "label_rm": [],
+        "container_rm": [
+          14400
+        ],
+        "multiplier": 1,
+        "input_value": 14400,
+        "input_raw": "14,400.00",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "B1a",
+        "options": []
+      },
+      {
+        "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+        "label": "B1b : Diri Sendiri - Isteri Bekerja",
+        "container_text": "B1b : Diri Sendiri - Isteri Bekerja RM 6,000.00 x 0 orang",
+        "rate_per_unit": 6000,
+        "label_rm": [],
+        "container_rm": [
+          6000
+        ],
+        "multiplier": 0,
+        "input_value": null,
+        "input_raw": "0.00",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "B1b",
+        "options": []
+      },
+      {
+        "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+        "label": "B2 : Pasangan Bekerja",
+        "container_text": "B2 : Pasangan Bekerja RM 3,000.00 x Tiada 1 orang 2 orang 3 orang 4 orang",
+        "rate_per_unit": 3000,
+        "label_rm": [],
+        "container_rm": [
+          3000
+        ],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0",
+        "input_type": "select",
+        "input_id": "",
+        "input_name": "B2a",
+        "options": [
+          {
+            "value": "0",
+            "text": "Tiada"
+          },
+          {
+            "value": "1",
+            "text": "1 orang"
+          },
+          {
+            "value": "2",
+            "text": "2 orang"
+          },
+          {
+            "value": "3",
+            "text": "3 orang"
+          },
+          {
+            "value": "4",
+            "text": "4 orang"
+          }
+        ]
+      },
+      {
+        "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+        "label": "B3: Pasangan Tidak Bekerja",
+        "container_text": "B3: Pasangan Tidak Bekerja RM 3,000.00 x Tiada 1 orang 2 orang 3 orang 4 orang",
+        "rate_per_unit": 3000,
+        "label_rm": [],
+        "container_rm": [
+          3000
+        ],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0",
+        "input_type": "select",
+        "input_id": "",
+        "input_name": "B3a",
+        "options": [
+          {
+            "value": "0",
+            "text": "Tiada"
+          },
+          {
+            "value": "1",
+            "text": "1 orang"
+          },
+          {
+            "value": "2",
+            "text": "2 orang"
+          },
+          {
+            "value": "3",
+            "text": "3 orang"
+          },
+          {
+            "value": "4",
+            "text": "4 orang"
+          }
+        ]
+      },
+      {
+        "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+        "label": "B4 : Anak 0-6 Tahun",
+        "container_text": "B4 : Anak 0-6 Tahun RM 3,600.00 x Tiada 1 orang 2 orang 3 orang 4 orang 5 orang 6 orang 7 orang 8 orang 9 orang 10 orang 11 orang 12 orang 13 orang 14 orang 15 orang",
+        "rate_per_unit": 3600,
+        "label_rm": [],
+        "container_rm": [
+          3600
+        ],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0",
+        "input_type": "select",
+        "input_id": "",
+        "input_name": "B4a",
+        "options": [
+          {
+            "value": "0",
+            "text": "Tiada"
+          },
+          {
+            "value": "1",
+            "text": "1 orang"
+          },
+          {
+            "value": "2",
+            "text": "2 orang"
+          },
+          {
+            "value": "3",
+            "text": "3 orang"
+          },
+          {
+            "value": "4",
+            "text": "4 orang"
+          },
+          {
+            "value": "5",
+            "text": "5 orang"
+          },
+          {
+            "value": "6",
+            "text": "6 orang"
+          },
+          {
+            "value": "7",
+            "text": "7 orang"
+          },
+          {
+            "value": "8",
+            "text": "8 orang"
+          },
+          {
+            "value": "9",
+            "text": "9 orang"
+          },
+          {
+            "value": "10",
+            "text": "10 orang"
+          },
+          {
+            "value": "11",
+            "text": "11 orang"
+          },
+          {
+            "value": "12",
+            "text": "12 orang"
+          },
+          {
+            "value": "13",
+            "text": "13 orang"
+          },
+          {
+            "value": "14",
+            "text": "14 orang"
+          },
+          {
+            "value": "15",
+            "text": "15 orang"
+          }
+        ]
+      },
+      {
+        "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+        "label": "B5 : Anak 7 Tahun Ke Atas",
+        "container_text": "B5 : Anak 7 Tahun Ke Atas RM 2,400.00 x Tiada 1 orang 2 orang 3 orang 4 orang 5 orang 6 orang 7 orang 8 orang 9 orang 10 orang 11 orang 12 orang 13 orang 14 orang 15 orang",
+        "rate_per_unit": 2400,
+        "label_rm": [],
+        "container_rm": [
+          2400
+        ],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0",
+        "input_type": "select",
+        "input_id": "",
+        "input_name": "B5a",
+        "options": [
+          {
+            "value": "0",
+            "text": "Tiada"
+          },
+          {
+            "value": "1",
+            "text": "1 orang"
+          },
+          {
+            "value": "2",
+            "text": "2 orang"
+          },
+          {
+            "value": "3",
+            "text": "3 orang"
+          },
+          {
+            "value": "4",
+            "text": "4 orang"
+          },
+          {
+            "value": "5",
+            "text": "5 orang"
+          },
+          {
+            "value": "6",
+            "text": "6 orang"
+          },
+          {
+            "value": "7",
+            "text": "7 orang"
+          },
+          {
+            "value": "8",
+            "text": "8 orang"
+          },
+          {
+            "value": "9",
+            "text": "9 orang"
+          },
+          {
+            "value": "10",
+            "text": "10 orang"
+          },
+          {
+            "value": "11",
+            "text": "11 orang"
+          },
+          {
+            "value": "12",
+            "text": "12 orang"
+          },
+          {
+            "value": "13",
+            "text": "13 orang"
+          },
+          {
+            "value": "14",
+            "text": "14 orang"
+          },
+          {
+            "value": "15",
+            "text": "15 orang"
+          }
+        ]
+      },
+      {
+        "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+        "label": "B6 : Anak 18 Tahun Ke Atas (Pendidikan Lanjutan)",
+        "container_text": "B6 : Anak 18 Tahun Ke Atas (Pendidikan Lanjutan) RM 4,200.00 x Tiada 1 orang 2 orang 3 orang 4 orang 5 orang 6 orang 7 orang 8 orang 9 orang 10 orang 11 orang 12 orang 13 orang 14 orang 15 orang",
+        "rate_per_unit": 4200,
+        "label_rm": [],
+        "container_rm": [
+          4200
+        ],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0",
+        "input_type": "select",
+        "input_id": "",
+        "input_name": "B6a",
+        "options": [
+          {
+            "value": "0",
+            "text": "Tiada"
+          },
+          {
+            "value": "1",
+            "text": "1 orang"
+          },
+          {
+            "value": "2",
+            "text": "2 orang"
+          },
+          {
+            "value": "3",
+            "text": "3 orang"
+          },
+          {
+            "value": "4",
+            "text": "4 orang"
+          },
+          {
+            "value": "5",
+            "text": "5 orang"
+          },
+          {
+            "value": "6",
+            "text": "6 orang"
+          },
+          {
+            "value": "7",
+            "text": "7 orang"
+          },
+          {
+            "value": "8",
+            "text": "8 orang"
+          },
+          {
+            "value": "9",
+            "text": "9 orang"
+          },
+          {
+            "value": "10",
+            "text": "10 orang"
+          },
+          {
+            "value": "11",
+            "text": "11 orang"
+          },
+          {
+            "value": "12",
+            "text": "12 orang"
+          },
+          {
+            "value": "13",
+            "text": "13 orang"
+          },
+          {
+            "value": "14",
+            "text": "14 orang"
+          },
+          {
+            "value": "15",
+            "text": "15 orang"
+          }
+        ]
+      },
+      {
+        "section": "BAHAGIAN B: HAD KIFAYAH ISI RUMAH (RM)",
+        "label": "B7 : Jumlah Tolakan Komponen Perbelanjaan (B1a + B1b + B2 + B3 + B4 + B5 + B6)",
+        "container_text": "B7 : Jumlah Tolakan Komponen Perbelanjaan (B1a + B1b + B2 + B3 + B4 + B5 + B6)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0.00",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "B7",
+        "options": []
+      }
+    ],
+    "Bahagian C: HAD KIFAYAH BERSYARAT AMAUN (RM)": [
+      {
+        "section": "Bahagian C: HAD KIFAYAH BERSYARAT AMAUN (RM)",
+        "label": "C1 : Penjagaan Kesihatan Sakit Kronik (Isi Rumah)",
+        "container_text": "C1 : Penjagaan Kesihatan Sakit Kronik (Isi Rumah)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "C1",
+        "options": []
+      },
+      {
+        "section": "Bahagian C: HAD KIFAYAH BERSYARAT AMAUN (RM)",
+        "label": "C2 : Penjagaan Kesihatan Sakit Kronik (Selain Isi Rumah)",
+        "container_text": "C2 : Penjagaan Kesihatan Sakit Kronik (Selain Isi Rumah) (Jumlah Amaun C1 + C2 terhad kepada RM2,400.00 sahaja)",
+        "rate_per_unit": 2400,
+        "label_rm": [],
+        "container_rm": [
+          2400
+        ],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "C2",
+        "options": []
+      },
+      {
+        "section": "Bahagian C: HAD KIFAYAH BERSYARAT AMAUN (RM)",
+        "label": "C3: Pemberian Wajib Kepada Ibu Bapa (Terhad RM4,200 setahun)",
+        "container_text": "C3: Pemberian Wajib Kepada Ibu Bapa (Terhad RM4,200 setahun)",
+        "rate_per_unit": 4200,
+        "label_rm": [
+          4200
+        ],
+        "container_rm": [
+          4200
+        ],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "C3",
+        "options": []
+      }
+    ],
+    "Bahagian D : KOMPONEN PELARASAN AMAUN (RM)": [
+      {
+        "section": "Bahagian D : KOMPONEN PELARASAN AMAUN (RM)",
+        "label": "D1 : Caruman KWSP / LTAT",
+        "container_text": "D1 : Caruman KWSP / LTAT",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "D1",
+        "options": []
+      },
+      {
+        "section": "Bahagian D : KOMPONEN PELARASAN AMAUN (RM)",
+        "label": "D2 : Caruman Di Institusi Yang Membayar Zakat Bagi Ahli",
+        "container_text": "D2 : Caruman Di Institusi Yang Membayar Zakat Bagi Ahli",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "D2",
+        "options": []
+      },
+      {
+        "section": "Bahagian D : KOMPONEN PELARASAN AMAUN (RM)",
+        "label": "Bahagian D : KOMPONEN PELARASAN AMAUN (RM)",
+        "container_text": "",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "Taksir Zakat",
+        "input_type": "button",
+        "input_id": "ButangHantar",
+        "input_name": "",
+        "options": []
+      }
+    ],
+    "Bahagian E : TAKSIRAN AMAUN (RM)": [
+      {
+        "section": "Bahagian E : TAKSIRAN AMAUN (RM)",
+        "label": "E1 : Jumlah Pendapatan Yang Layak Ditaksir (A4-D1)",
+        "container_text": "E1 : Jumlah Pendapatan Yang Layak Ditaksir (A4-D1)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0.00",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "E1",
+        "options": []
+      },
+      {
+        "section": "Bahagian E : TAKSIRAN AMAUN (RM)",
+        "label": "E2 : Jumlah Pelepasan Keseluruhan Yang Layak (B7+C1+C2+C3)",
+        "container_text": "E2 : Jumlah Pelepasan Keseluruhan Yang Layak (B7+C1+C2+C3)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0.00",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "E2",
+        "options": []
+      },
+      {
+        "section": "Bahagian E : TAKSIRAN AMAUN (RM)",
+        "label": "E3 : Baki Pendapatan Untuk Dikira Zakat (E1-E2)",
+        "container_text": "E3 : Baki Pendapatan Untuk Dikira Zakat (E1-E2)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0.00",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "E3",
+        "options": []
+      },
+      {
+        "section": "Bahagian E : TAKSIRAN AMAUN (RM)",
+        "label": "E4 : Nisab Zakat Tahun 2026 (WAJIB ZAKAT jika baki sama @ melebihi nisab)",
+        "container_text": "E4 : Nisab Zakat Tahun 2026 (WAJIB ZAKAT jika baki sama @ melebihi nisab)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": 40092.42,
+        "input_raw": "40092.42",
+        "input_type": "text",
+        "input_id": "E4Input",
+        "input_name": "E4",
+        "options": []
+      }
+    ],
+    "Bahagian F : ZAKAT AMAUN": [
+      {
+        "section": "Bahagian F : ZAKAT AMAUN",
+        "label": "F1 : Zakat (E3 x 2.5%)",
+        "container_text": "F1 : Zakat (E3 x 2.5%)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0.00",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "F1",
+        "options": []
+      },
+      {
+        "section": "Bahagian F : ZAKAT AMAUN",
+        "label": "F2 : Zakat telah dibayar (D2 x 2.5%)",
+        "container_text": "F2 : Zakat telah dibayar (D2 x 2.5%)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0.00",
+        "input_type": "text",
+        "input_id": "",
+        "input_name": "F2",
+        "options": []
+      },
+      {
+        "section": "Bahagian F : ZAKAT AMAUN",
+        "label": "(Tahunan)",
+        "container_text": "F3 : Baki Zakat Perlu Dibayar (F1-F2) (Tahunan) (Bulanan)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0.00",
+        "input_type": "text",
+        "input_id": "F3",
+        "input_name": "F3",
+        "options": []
+      },
+      {
+        "section": "Bahagian F : ZAKAT AMAUN",
+        "label": "F3 : Baki Zakat Perlu Dibayar (F1-F2)",
+        "container_text": "F3 : Baki Zakat Perlu Dibayar (F1-F2) (Tahunan) (Bulanan)",
+        "rate_per_unit": null,
+        "label_rm": [],
+        "container_rm": [],
+        "multiplier": null,
+        "input_value": null,
+        "input_raw": "0.00",
+        "input_type": "text",
+        "input_id": "F3b",
+        "input_name": "F3b",
+        "options": []
+      }
+    ]
+  }
+}

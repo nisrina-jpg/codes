@@ -1,0 +1,527 @@
+{
+  "kalkulator_pendapatan": {
+    "(Borang Utama)": [
+      {
+        "label": "Jantina:",
+        "input_id": "",
+        "input_name": "SJantina",
+        "input_type": "select",
+        "input_value": "0",
+        "options": [
+          {
+            "value": "0",
+            "text": "Sila Pilih"
+          },
+          {
+            "value": "1",
+            "text": "Lelaki"
+          },
+          {
+            "value": "2",
+            "text": "Perempuan"
+          }
+        ]
+      },
+      {
+        "label": "Status Perkahwinan:",
+        "input_id": "",
+        "input_name": "SStatusKahwin",
+        "input_type": "select",
+        "input_value": "0",
+        "options": [
+          {
+            "value": "0",
+            "text": "Sila Pilih"
+          },
+          {
+            "value": "1",
+            "text": "Bujang"
+          },
+          {
+            "value": "2",
+            "text": "Berkahwin"
+          },
+          {
+            "value": "3",
+            "text": "Duda/Janda/Balu"
+          }
+        ]
+      },
+      {
+        "label": "Status Pendapatan Suami:",
+        "input_id": "",
+        "input_name": "SStatusSuami",
+        "input_type": "select",
+        "input_value": "0",
+        "options": [
+          {
+            "value": "0",
+            "text": "Sila Pilih"
+          },
+          {
+            "value": "1",
+            "text": "Memiliki Punca Pendapatan"
+          },
+          {
+            "value": "2",
+            "text": "Tidak Memiliki Punca Pendapatan"
+          }
+        ]
+      },
+      {
+        "label": "A1: Pendapatan Penggajian Setahun / Upah Setahun",
+        "input_id": "",
+        "input_name": "A1",
+        "input_type": "text",
+        "input_value": "",
+        "options": []
+      },
+      {
+        "label": "A2 : Pendapatan Hasil Bebas atau Profesional Setahun",
+        "input_id": "",
+        "input_name": "A2",
+        "input_type": "text",
+        "input_value": "",
+        "options": []
+      },
+      {
+        "label": "A3 : Pendapatan Hasil Aset Tetap Setahun",
+        "input_id": "",
+        "input_name": "A3",
+        "input_type": "text",
+        "input_value": "",
+        "options": []
+      },
+      {
+        "label": "A4 : Jumlah Pendapatan (A1 + A2 + A3)",
+        "input_id": "",
+        "input_name": "A4",
+        "input_type": "text",
+        "input_value": "0.00",
+        "options": []
+      },
+      {
+        "label": "Adakah Anda Ingin Membuat Tolakan?",
+        "input_id": "",
+        "input_name": "UT1",
+        "input_type": "select",
+        "input_value": "0",
+        "options": [
+          {
+            "value": "0",
+            "text": "Ya, Buat Tolakan"
+          },
+          {
+            "value": "1",
+            "text": "Tidak, Buat Taksiran Tanpa Tolakan"
+          }
+        ]
+      },
+      {
+        "label": "B1a: Diri Sendiri - Ketua Keluarga",
+        "input_id": "",
+        "input_name": "B1a",
+        "input_type": "text",
+        "input_value": "14,400.00",
+        "options": []
+      },
+      {
+        "label": "B1b : Diri Sendiri - Isteri Bekerja",
+        "input_id": "",
+        "input_name": "B1b",
+        "input_type": "text",
+        "input_value": "0.00",
+        "options": []
+      },
+      {
+        "label": "B2 : Pasangan Bekerja",
+        "input_id": "",
+        "input_name": "B2a",
+        "input_type": "select",
+        "input_value": "0",
+        "options": [
+          {
+            "value": "0",
+            "text": "Tiada"
+          },
+          {
+            "value": "1",
+            "text": "1 orang"
+          },
+          {
+            "value": "2",
+            "text": "2 orang"
+          },
+          {
+            "value": "3",
+            "text": "3 orang"
+          },
+          {
+            "value": "4",
+            "text": "4 orang"
+          }
+        ]
+      },
+      {
+        "label": "B3: Pasangan Tidak Bekerja",
+        "input_id": "",
+        "input_name": "B3a",
+        "input_type": "select",
+        "input_value": "0",
+        "options": [
+          {
+            "value": "0",
+            "text": "Tiada"
+          },
+          {
+            "value": "1",
+            "text": "1 orang"
+          },
+          {
+            "value": "2",
+            "text": "2 orang"
+          },
+          {
+            "value": "3",
+            "text": "3 orang"
+          },
+          {
+            "value": "4",
+            "text": "4 orang"
+          }
+        ]
+      },
+      {
+        "label": "B4 : Anak 0-6 Tahun",
+        "input_id": "",
+        "input_name": "B4a",
+        "input_type": "select",
+        "input_value": "0",
+        "options": [
+          {
+            "value": "0",
+            "text": "Tiada"
+          },
+          {
+            "value": "1",
+            "text": "1 orang"
+          },
+          {
+            "value": "2",
+            "text": "2 orang"
+          },
+          {
+            "value": "3",
+            "text": "3 orang"
+          },
+          {
+            "value": "4",
+            "text": "4 orang"
+          },
+          {
+            "value": "5",
+            "text": "5 orang"
+          },
+          {
+            "value": "6",
+            "text": "6 orang"
+          },
+          {
+            "value": "7",
+            "text": "7 orang"
+          },
+          {
+            "value": "8",
+            "text": "8 orang"
+          },
+          {
+            "value": "9",
+            "text": "9 orang"
+          },
+          {
+            "value": "10",
+            "text": "10 orang"
+          },
+          {
+            "value": "11",
+            "text": "11 orang"
+          },
+          {
+            "value": "12",
+            "text": "12 orang"
+          },
+          {
+            "value": "13",
+            "text": "13 orang"
+          },
+          {
+            "value": "14",
+            "text": "14 orang"
+          },
+          {
+            "value": "15",
+            "text": "15 orang"
+          }
+        ]
+      },
+      {
+        "label": "B5 : Anak 7 Tahun Ke Atas",
+        "input_id": "",
+        "input_name": "B5a",
+        "input_type": "select",
+        "input_value": "0",
+        "options": [
+          {
+            "value": "0",
+            "text": "Tiada"
+          },
+          {
+            "value": "1",
+            "text": "1 orang"
+          },
+          {
+            "value": "2",
+            "text": "2 orang"
+          },
+          {
+            "value": "3",
+            "text": "3 orang"
+          },
+          {
+            "value": "4",
+            "text": "4 orang"
+          },
+          {
+            "value": "5",
+            "text": "5 orang"
+          },
+          {
+            "value": "6",
+            "text": "6 orang"
+          },
+          {
+            "value": "7",
+            "text": "7 orang"
+          },
+          {
+            "value": "8",
+            "text": "8 orang"
+          },
+          {
+            "value": "9",
+            "text": "9 orang"
+          },
+          {
+            "value": "10",
+            "text": "10 orang"
+          },
+          {
+            "value": "11",
+            "text": "11 orang"
+          },
+          {
+            "value": "12",
+            "text": "12 orang"
+          },
+          {
+            "value": "13",
+            "text": "13 orang"
+          },
+          {
+            "value": "14",
+            "text": "14 orang"
+          },
+          {
+            "value": "15",
+            "text": "15 orang"
+          }
+        ]
+      },
+      {
+        "label": "B6 : Anak 18 Tahun Ke Atas (Pendidikan Lanjutan)",
+        "input_id": "",
+        "input_name": "B6a",
+        "input_type": "select",
+        "input_value": "0",
+        "options": [
+          {
+            "value": "0",
+            "text": "Tiada"
+          },
+          {
+            "value": "1",
+            "text": "1 orang"
+          },
+          {
+            "value": "2",
+            "text": "2 orang"
+          },
+          {
+            "value": "3",
+            "text": "3 orang"
+          },
+          {
+            "value": "4",
+            "text": "4 orang"
+          },
+          {
+            "value": "5",
+            "text": "5 orang"
+          },
+          {
+            "value": "6",
+            "text": "6 orang"
+          },
+          {
+            "value": "7",
+            "text": "7 orang"
+          },
+          {
+            "value": "8",
+            "text": "8 orang"
+          },
+          {
+            "value": "9",
+            "text": "9 orang"
+          },
+          {
+            "value": "10",
+            "text": "10 orang"
+          },
+          {
+            "value": "11",
+            "text": "11 orang"
+          },
+          {
+            "value": "12",
+            "text": "12 orang"
+          },
+          {
+            "value": "13",
+            "text": "13 orang"
+          },
+          {
+            "value": "14",
+            "text": "14 orang"
+          },
+          {
+            "value": "15",
+            "text": "15 orang"
+          }
+        ]
+      },
+      {
+        "label": "B7 : Jumlah Tolakan Komponen Perbelanjaan (B1a + B1b + B2 + B3 + B4 + B5 + B6)",
+        "input_id": "",
+        "input_name": "B7",
+        "input_type": "text",
+        "input_value": "0.00",
+        "options": []
+      },
+      {
+        "label": "C1 : Penjagaan Kesihatan Sakit Kronik (Isi Rumah)",
+        "input_id": "",
+        "input_name": "C1",
+        "input_type": "text",
+        "input_value": "",
+        "options": []
+      },
+      {
+        "label": "C2 : Penjagaan Kesihatan Sakit Kronik (Selain Isi Rumah)",
+        "input_id": "",
+        "input_name": "C2",
+        "input_type": "text",
+        "input_value": "",
+        "options": []
+      },
+      {
+        "label": "C3: Pemberian Wajib Kepada Ibu Bapa (Terhad RM4,200 setahun)",
+        "input_id": "",
+        "input_name": "C3",
+        "input_type": "text",
+        "input_value": "",
+        "options": []
+      },
+      {
+        "label": "D1 : Caruman KWSP / LTAT",
+        "input_id": "",
+        "input_name": "D1",
+        "input_type": "text",
+        "input_value": "",
+        "options": []
+      },
+      {
+        "label": "D2 : Caruman Di Institusi Yang Membayar Zakat Bagi Ahli",
+        "input_id": "",
+        "input_name": "D2",
+        "input_type": "text",
+        "input_value": "",
+        "options": []
+      },
+      {
+        "label": "E1 : Jumlah Pendapatan Yang Layak Ditaksir (A4-D1)",
+        "input_id": "",
+        "input_name": "E1",
+        "input_type": "text",
+        "input_value": "0.00",
+        "options": []
+      },
+      {
+        "label": "E2 : Jumlah Pelepasan Keseluruhan Yang Layak (B7+C1+C2+C3)",
+        "input_id": "",
+        "input_name": "E2",
+        "input_type": "text",
+        "input_value": "0.00",
+        "options": []
+      },
+      {
+        "label": "E3 : Baki Pendapatan Untuk Dikira Zakat (E1-E2)",
+        "input_id": "",
+        "input_name": "E3",
+        "input_type": "text",
+        "input_value": "0.00",
+        "options": []
+      },
+      {
+        "label": "E4 : Nisab Zakat Tahun 2026 (WAJIB ZAKAT jika baki sama @ melebihi nisab)",
+        "input_id": "E4Input",
+        "input_name": "E4",
+        "input_type": "text",
+        "input_value": "40092.42",
+        "options": []
+      },
+      {
+        "label": "F1 : Zakat (E3 x 2.5%)",
+        "input_id": "",
+        "input_name": "F1",
+        "input_type": "text",
+        "input_value": "0.00",
+        "options": []
+      },
+      {
+        "label": "F2 : Zakat telah dibayar (D2 x 2.5%)",
+        "input_id": "",
+        "input_name": "F2",
+        "input_type": "text",
+        "input_value": "0.00",
+        "options": []
+      },
+      {
+        "label": "(Tahunan)",
+        "input_id": "F3",
+        "input_name": "F3",
+        "input_type": "text",
+        "input_value": "0.00",
+        "options": []
+      },
+      {
+        "label": "F3 : Baki Zakat Perlu Dibayar (F1-F2)",
+        "input_id": "F3b",
+        "input_name": "F3b",
+        "input_type": "text",
+        "input_value": "0.00",
+        "options": []
+      }
+    ]
+  }
+}
